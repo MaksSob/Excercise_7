@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#ff0014"
+        android:fontFamily="serif"
+        android:text="red"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnRed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#00fd3b"
+        android:fontFamily="serif"
+        android:text="green"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnGreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#006efc"
+        android:fontFamily="serif"
+        android:text="blue"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnRedBottom"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#CFD8DC"
+        android:gravity="center"
+        android:text="red"
+        android:textColor="#a3010b"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGreenBottom"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="#CFD8DC"
+        android:gravity="center"
+        android:text="green"
+        android:textColor="#04a32b"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBlueBottom"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#CFD8DC"
+        android:gravity="center"
+        android:text="blue"
+        android:textColor="#2b4ef7"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
